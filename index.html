@@ -1,124 +1,168 @@
+<?php
+$dbhost = "localhost";
+$dbuser = "root";
+$dbpass = "";
+$dbname = "vaccine_management_system";
+$conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
+error_reporting(0);
+?>
+
 <html>
 <head>
-	<title> UNIFIED KARE HOSPITAL </title>
-	
-	<link href="css/style.css" type="text/css" rel="stylesheet">
-	
+    <title>UNIFIED KARE HOSPITAL</title>
+
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+
 </head>
 <body>
-	
-	<div class="top">
-		<div>
-		 Contact Us +91 6378206232 +91 7014815777 / uk@hospital.com 
-		</div>
-	</div>
-	
-	<div class="logo">
-		<div>
-			<table>
-				<tr>
-					<td width="600px" style="font-size:50px;font-family:forte;"> <font color="#428bca"> UK  </font><font color="#000"> Hospital</font> </td>
-					<td> <br> <br>
-						<font size="4px"> 
-							<a href="index.html">HOME</a> 
-							<a href="about.html">ABOUT US</a>  
-							<a href="service.html">SERVICE</a>
-							<a href="doctor.html">DOCTORS</a> 
-							<a href="contact.html">CONTACT US</a>
-						</font>
-					</td>
-				</tr>
-			</table>
-		</div>
-	</div>
-	
-	<div class="middle">
-		<div style="background-image:url('img/a.jpg');">
-		<p>
-			<br> <br>
-					Health Care Services  <br>
-			<font size="5px"> We Care About Your Health </font>
-		</p> 
-		</div>
-	</div>
-	
-	<div class="bottom">
-		<div>
-			<table border="0">
-				<tr>
-					<td width="700px">
-						<font color="#000"> We are medical center </font> <br> <br>
 
-					<font color="#000" size="5px"> We Have Medicare Plan Options for You! </font> <br> <br>
+<div class="top">
+    <div>
+        Contact Us +91 6378206232 +91 7014815777 / uk@hospital.com
+    </div>
+</div>
 
-					The Vaccine Education Center at UNIFIED KARE's hospital of jaipur provides complete, up-to-date and reliable information about vaccines to parents and healthcare professionals. We are a member of the World Health Organization's (WHO) Vaccine Safety Net because our website meets the criteria for credibility and content as defined by the Global Advisory Committee on Vaccine Safety. <br><br>
+<div class="logo">
+    <div>
+        <table>
+            <tr>
+                <td width="600px" style="font-size:50px;font-family:forte;"> <font color="#428bca"> UK  </font><font color="#000"> Hospital</font> </td>
+                <td> <br> <br>
+                    <font size="4px">
+                        <a href="index.html">HOME</a>
+                        <a href="about.html">ABOUT US</a>
+                        <a href="service.html">SERVICE</a>
+                        <a href="doctor.html">DOCTORS</a>
+                        <a href="contact.html">CONTACT US</a>
+                    </font>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
 
-<br><br>
-<ul>
-</ul>
-<br>
- </td>
-					
-					
-					<td> </td>
-				</tr>
-			
-				
-			</table>
-		</div>
-	</div>
-	
-	<div class="bottom_up">
-		<div>	
-				Make an Appointment
-				<form action="https://formspree.io/f/xeqdynok"method="POST">
-				
-										
-					<br>
-						
-							<input type="text" name="first name" placeholder="First Name">
-							<input type="text" name="last name" placeholder="Last Name">
-							
-							<br>
-							<input type="text" name="emailid" placeholder="Email Id">
-						 	<input type="text" name="mobile number" placeholder="Mobile No">
-							<br>
-							 <input type="text" name="age" placeholder="age">
-							 <input type="text" name="blood group" placeholder="blood group">
-						<br>
-							<select name="sex">
-							<option>sex</option>
-							<option>male</option>
-							<option>female</option>
-							<option>other</option>
-							
-							</select>
-					
-							<input type="text" name="appointment date" placeholder="appointment date">
-				         <br>
-						<select name="vaccines">
-							<option>select the vaccines</option>
-							<option>corona vaccines</option>
-							<option>rabbies vaccines</option>
-							<option>HEP vaccines</option>
-							<option>BCG vaccines</option>
-							<option>ROTAVIRUS vaccines</option>
-							<option>RUBELLA vaccines</option>
-							<option>VARICELLA vaccines</option>
-						</select>
-					
-						<input type="text" name="symptoms" placeholder="Symptoms">
-					<br>
-							<textarea name="message" placeholder="Messages" required> </textarea>
-					<br>
-						<br>
-							<button type="SUBMIT">SUBMIT</button><button type="reset">reset</button>
-							</div>
-				</form>
-		</div>
-	</div>
-	<div class="nav_down">
-		<div>
-		 &copy; UK Hospital, site designed & developed by Karan&Kunal 
-		</div>
-	</div>
+<div class="middle">
+    <div style="background-image:url('img/a.jpg');">
+        <p>
+            <br> <br>
+            Health Care Services  <br>
+            <font size="5px"> We Care About Your Health </font>
+        </p>
+    </div>
+</div>
+
+<div class="bottom">
+    <div>
+        <table border="0">
+            <tr>
+                <td width="700px">
+                    <font color="#000"> We are medical center </font> <br> <br>
+
+                    <font color="#000" size="5px"> We Have Medicare Plan Options for You! </font> <br> <br>
+
+                    The Vaccine Education Center at UNIFIED KARE's hospital of jaipur provides complete, up-to-date and reliable information about vaccines to parents and healthcare professionals. We are a member of the World Health Organization's (WHO) Vaccine Safety Net because our website meets the criteria for credibility and content as defined by the Global Advisory Committee on Vaccine Safety. <br><br>
+
+                    <br><br>
+                    <ul>
+                    </ul>
+                    <br>
+                </td>
+
+
+                <td> </td>
+            </tr>
+
+
+
+        </table>
+    </div>
+</div>
+
+<div class="bottom_up">
+    <div>
+        Make an Appointment
+        <form action="index.php" method="GET">
+            <br>
+
+            <input type="text" name="firstname" placeholder="First Name">
+            <input type="text" name="lastname" placeholder="Last Name">
+
+            <br>
+            <input type="text" name="emailid" placeholder="Email Id">
+            <input type="text" name="mobilenumber" placeholder="Mobile No">
+            <br>
+            <input type="text" name="age" placeholder="Age">
+            <input type="text" name="bloodgroup" placeholder="Blood Group">
+            <br>
+            <select name="sex">
+                <option>Sex</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select>
+
+            <input type="text" name="appointmentdate" placeholder="Appointment Date">
+            <br>
+            <select name="vaccines">
+                <option>Select the vaccines</option>
+                <option>Corona vaccines</option>
+                <option>Rabbies vaccines</option>
+                <option>HEP vaccines</option>
+                <option>BCG vaccines</option>
+                <option>ROTAVIRUS vaccines</option>
+                <option>RUBELLA vaccines</option>
+                <option>VARICELLA vaccines</option>
+            </select>
+
+            <input type="text" name="symptoms" placeholder="Symptoms">
+            <br>
+            <textarea name="message" style="resize: none;" placeholder="Messages" required></textarea>
+            <br>
+            <br>
+
+            <input type="submit" style="width:40%; background-color:#2FA5EB; position:sticky; padding:8px; font-size:18px; cursor:pointer; border-radius:15px; margin:12px 0px; border:2px solid black;" value="Submit" name="savedata">
+			<div class="not_registered">
+    <a href="login.php">Not Registered? Sign In</a>
+</div>
+		</form>
+
+    </div>
+</div>
+<div class="nav_down">
+    <div>
+        &copy; UK Hospital, site designed & developed by Karan&Kunal
+    </div>
+</div>
+
+<?php
+if ($_GET['savedata']) {
+    $firstname = $_GET['firstname'];
+    $lastname = $_GET['lastname'];
+    $emailid = $_GET['emailid'];
+    $mobilenumber = $_GET['mobilenumber'];
+    $age = $_GET['age'];
+    $bloodgroup = $_GET['bloodgroup'];
+    $sex = $_GET['sex'];
+    $appointmentdate = $_GET['appointmentdate'];
+    $vaccines = $_GET['vaccines'];
+    $symptoms = $_GET['symptoms'];
+    $messages = $_GET['message'];
+
+
+    $query2 = "INSERT INTO `registration` (`firstname`, `lastname`, `emailid`, `mobilenumber`, `age`, `bloodgroup`, `sex`, `appointmentdate`, `vaccines`, `symptoms`, `message`) 
+			VALUES ('$firstname ', '$lastname', '$emailid', '$mobilenumber', '$age', '$bloodgroup ', '$sex', '$appointmentdate', '  $vaccines', '$symptoms ', '$messages ')";
+
+    $data = mysqli_query($conn, $query2);
+}
+
+?>
+
+
+
+<div class="nav_down">
+    <div>
+        &copy; UK Hospital, site designed & developed by Karan&Kunal
+    </div>
+</div>
+</body>
+</html>
